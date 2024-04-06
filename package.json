@@ -1,6 +1,6 @@
 {
-  "name": "tips.vfshera.com",
-  "description": "Minimal starter template for Astro.",
+  "name": "codetips",
+  "description": "code tips collection",
   "type": "module",
   "version": "0.0.1",
   "scripts": {

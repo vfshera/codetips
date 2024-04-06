@@ -1,3 +1,3 @@
-# [Tips](https://tips.vfshera.com)
+# CodeTips
 
 Code tips that I find around.
