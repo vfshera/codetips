@@ -28,4 +28,4 @@ jobs:
         env:
           PROJECT_PATH: ${{ secrets.PROJECT_PATH }}
         run: |
-          ssh syncflux@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh
+          ssh -i ~/.ssh/id_ed25519 ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh
