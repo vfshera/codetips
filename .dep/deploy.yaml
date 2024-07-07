@@ -1,0 +1,11 @@
+name: Codetips
+jobs:
+  pull:
+    name: Pull Latest Changes
+    run: git pull
+  install:
+    name: Install Dependencies
+    run: npm install
+  build:
+    name: Build Project
+    run: npm run build
